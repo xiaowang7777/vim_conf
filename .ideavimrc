@@ -1,0 +1,16 @@
+let mapleader=','
+syntax on
+set number relativenumber
+set ruler
+set wrap
+set expandtab
+set nobackup
+set noswapfile
+set fileencoding=utf-8
+set keep-english-in-normal
+set incsearch
+
+nnoremap \e :e ~/.ideavimrc<CR>
+nnoremap \r :action IdeaVim.ReloadVimRc.reload<CR>
+
+nnoremap <Leader>re :action RenameElement<CR>
